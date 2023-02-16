@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .pong {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #A3BAC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : solid 1px red;
+  }
+  .bar {
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background-color: #004052;
+    opacity: .9;
+  }
+  .bar.left {
+    left: 20px;
+  }
+  .bar.right {
+    right: 20px;
+  }
+  .ball {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: #004052;
+    border-radius: 100%;
+    opacity: .8;
+  }
+  .pong-title {
+    font-family: sans-serif;
+    color: #B4C8CF;
+    font-weight: bold;
+    font-size: 6rem;
+  }
